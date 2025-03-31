@@ -1,0 +1,52 @@
+{
+    "phones": [
+      {
+        "id": 1,
+        "name": "Samsung Galaxy S23",
+        "brand": "Samsung",
+        "price": 120000,
+        "image": "s23.jpg",
+        "description": "Flagship Samsung smartphone with advanced camera and performance."
+      },
+      {
+        "id": 2,
+        "name": "iPhone 14 Pro",
+        "brand": "Apple",
+        "price": 180000,
+        "image": "iphone14pro.jpg",
+        "description": "Apple's latest pro-series iPhone with an A16 Bionic chip."
+      },
+      {
+        "id": 3,
+        "name": "Google Pixel 7",
+        "brand": "Google",
+        "price": 100000,
+        "image": "pixel7.jpg",
+        "description": "Google's flagship smartphone with an advanced AI camera."
+      },
+      {
+        "id": 4,
+        "name": "OnePlus 11",
+        "brand": "OnePlus",
+        "price": 95000,
+        "image": "oneplus11.jpg",
+        "description": "Premium OnePlus phone with Snapdragon 8 Gen 2 chipset."
+      },
+      {
+        "id": 5,
+        "name": "Xiaomi 13 Pro",
+        "brand": "Xiaomi",
+        "price": 85000,
+        "image": "xiaomi13pro.jpg",
+        "description": "Xiaomi’s high-end smartphone with Leica-powered cameras."
+      },
+      {
+        "id": 6,
+        "name": "Oppo Find X6",
+        "brand": "Oppo",
+        "price": 88000,
+        "image": "oppofindx6.jpg",
+        "description": "Oppo’s premium smartphone with an advanced display and camera."
+      }
+    ]
+  }  

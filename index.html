@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Phone Place KE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<body>
+    <header class="header"> 
+        <img src="Images/ChatGPT Image Mar 31, 2025, 06_20_12 PM.png" alt="" class="logo">
+    <h1>Phone Place KE</h1>
+  
+    </header>
+    <p class="motto">Why pay more? Get more for less!</p>
+    <div class="filter-container">
+        <label for="search-box">Search Product:</label>
+        <input type="text" id="search-box" placeholder="Search for a phone...">
+
+        <label for="brand-filter">Filter by Brand:</label>
+        <select id="brand-filter">
+            <option value="all">All Brands</option>
+        </select>
+    
+        <label for="price-filter">Filter by Price:</label>
+        <select id="price-filter">
+            <option value="all">All Prices</option>
+            <option value="low">Below KES 20,000</option>
+            <option value="mid">KES 20,000 - 50,000</option>
+            <option value="high">Above KES 50,000</option>
+        </select>
+    
+        <label for="rating-filter">Filter by Rating:</label>
+        <select id="rating-filter">
+            <option value="all">All Ratings</option>
+            <option value="4">4 Stars & Above</option>
+            <option value="3">3 Stars & Above</option>
+        </select>
+    </div>
+    
+   
+    <div class="container" id="product-container" ></div>
+
+<button id="cart-toggle">🛒 View Cart (<span id="cart-count">0</span>)</button>
+
+<div class="cart-container" id="cart-container">
+    <h2>Checkout</h2>
+    <ul class="cart-items" id="cart-items"></ul>
+    <p class="total-price">Total: KES <span id="total-price">0</span></p>
+</div>
+<div id="product-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" onclick="closeModal()">&times;</span>
+        <h2 id="modal-title"></h2>
+        <img id="modal-image" src="" alt="Phone Image">
+        <p id="modal-brand"></p>
+        <p id="modal-price"></p>
+        <p id="modal-rating"></p>
+        <p id="modal-description"></p>
+        <button onclick="addToCartFromModal()">Add to Cart</button>
+    </div>
+</div>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>Phone Place KE brings you the best smartphones at unbeatable prices.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Email: support@phoneplaceke.com</p>
+            <p>Phone: +254 700 123 456</p>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+    <p class="footer-bottom">© 2025 Phone Place KE. All rights reserved.</p>
+</footer>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
